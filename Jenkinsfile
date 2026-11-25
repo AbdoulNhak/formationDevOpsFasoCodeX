@@ -24,6 +24,7 @@ pipeline {
 		 mkdir -p reports
 
 		 .venv/bin/python -m pytest --junitxml=reports/junit.xml -v
+		'''
             }
         }
 	
